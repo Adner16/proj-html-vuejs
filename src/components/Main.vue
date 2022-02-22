@@ -7,6 +7,7 @@
   <Live />
   <Jumbo2 />
   <Latest />
+  
 </div>
   
 </template>
