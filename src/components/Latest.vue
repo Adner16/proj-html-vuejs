@@ -30,18 +30,6 @@
             <div class="btn">
                 <a href="#">VIEW ALL POSTS</a>
             </div>
-            <div class="third-container">
-                <div class="box box-black">
-                    <span class="grey">Are you ready</span>
-                    <h2>Start a new project</h2>
-                    <input type="text" placeholder="Enter your email address">
-                </div>
-                <div class="box box-green">
-                <span class="white">What are ou waiting for</span>
-                    <h2>Let's talk about Work</h2>
-                    <a href="#">START NOW</a>
-                </div>  
-            </div>
         </div> 
     </div> 
 </template>
@@ -96,34 +84,7 @@ export default {
             margin-right: 10px;
         }
     }
-    .third-container{
-        display: flex;
-        padding-top: 200px;
-        .box{
-            width: 550px;
-            box-shadow: 0 0 10px grey;
-            border-radius: 8px;
-            padding: 50px;
-            text-align: center;
-            margin-right: 25px;
-        }
-        .box-green{
-            background-color: lightgreen;
-            a{
-                text-decoration: none;
-                color: white;
-                background-color:  #000;
-                padding: 17px 30px;
-                border-radius: 30px;
-                font-size: 12px;
-                margin-right: 10px;
-            }
-        }
-        .box-black{
-            background-color: black;
-            color: white
-        } 
-    }
+    
      
      
 </style>

@@ -7,19 +7,20 @@
   <Live />
   <Jumbo2 />
   <Latest />
-  
+  <Getstarted />
 </div>
   
 </template>
 
 <script>
-import Firstsection from './Firstsection.vue';
-import Missions from './Missions.vue';
-import Photos from './Photos.vue';
-import Love from './Love.vue';
-import Live from './Live.vue';
-import Jumbo2 from './Jumbo2.vue';
-import Latest from './Latest.vue';
+import Firstsection from './Firstsection';
+import Missions from './Missions';
+import Photos from './Photos';
+import Love from './Love';
+import Live from './Live';
+import Jumbo2 from './Jumbo2';
+import Latest from './Latest';
+import Getstarted from './Getstarted';
 
 
 export default {
@@ -32,6 +33,7 @@ export default {
       Live,
       Jumbo2,
       Latest,
+      Getstarted,
   }
 }
 </script>
